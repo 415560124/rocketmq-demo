@@ -1,0 +1,9 @@
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: ${spring.application.name}
+    access-key: rhylovewyy
+    secret-key: rhylovewyy
+spring:
+  application:
+    name: demo-service
